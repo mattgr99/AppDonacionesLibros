@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_x="100dp"
+        android:layout_y="9dp"
+        android:text="Cédula Beneficiario"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_envio_cedula"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_x="99dp"
+        android:layout_y="70dp"
+        android:text="Libros Entregados"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_item_envio_cantidad"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_envio_cantidad"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_envio_cantidad"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="20dp"
+        android:layout_x="230dp"
+        android:layout_y="71dp"
+        android:text="Libros Disponibles"
+        app:layout_constraintBottom_toTopOf="@+id/tv_item_envio_fecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_envio_codigo" />
+
+    <TextView
+        android:id="@+id/tv_item_envio_fecha"
+        android:layout_width="138dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="74dp"
+        android:layout_x="231dp"
+        android:layout_y="107dp"
+        android:text="Libros Disponibles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toTopOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="57dp"
+        android:layout_x="103dp"
+        android:layout_y="107dp"
+        android:text="Fecha Entrega"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_envio_fecha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="67dp"
+        android:layout_x="101dp"
+        android:layout_y="37dp"
+        android:text="Còdigo Libro"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_envio_codigo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_envio_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="65dp"
+        android:layout_x="228dp"
+        android:layout_y="35dp"
+        android:text="Libros Disponibles"
+        app:layout_constraintBottom_toTopOf="@+id/tv_item_envio_fecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView42"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_envio_cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="23dp"
+        android:layout_x="227dp"
+        android:layout_y="9dp"
+        android:text="Libros Disponibles"
+        app:layout_constraintBottom_toTopOf="@+id/tv_item_envio_codigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView39"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_x="10dp"
+        android:layout_y="24dp"
+        app:srcCompat="@drawable/ic_entrega"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="206dp" />
+</AbsoluteLayout>

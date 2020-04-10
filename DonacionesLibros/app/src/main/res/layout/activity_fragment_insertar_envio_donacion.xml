@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fragment_insertar_envio_donacion">
+
+    <EditText
+        android:id="@+id/et_cedula_beneficiario1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="39dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="4dp"
+        android:text="ENVIO DONACION" />
+
+    <Button
+        android:id="@+id/bt_buscar_Beneficiario"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_x="266dp"
+        android:layout_y="39dp"
+        android:background="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="96dp"
+        android:text="Nombre Beneficiario" />
+
+    <TextView
+        android:id="@+id/tv_nombre_beneficiario"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="95dp" />
+
+    <TextView
+        android:id="@+id/tv_telefono_Beneficiario"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="142dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="140dp"
+        android:text="Teléfono Beneficiario" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="188dp"
+        android:text="Fecha Entrega" />
+
+    <TextView
+        android:id="@+id/tv_fecha_entrega"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="191dp" />
+
+    <EditText
+        android:id="@+id/et_libros_entrega"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="232dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="248dp"
+        android:text="Número de Libros" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="305dp"
+        android:text="Código Libro" />
+
+    <EditText
+        android:id="@+id/et_codigo_libro_beneficiario"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="292dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="351dp"
+        android:text="Listado Beneficiados" />
+
+    <Button
+        android:id="@+id/bt_beneficiados_listado"
+        android:layout_width="105dp"
+        android:layout_height="103dp"
+        android:layout_x="188dp"
+        android:layout_y="384dp"
+        android:background="@drawable/ic_list" />
+
+    <Button
+        android:id="@+id/bt_registrar_envio"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_x="44dp"
+        android:layout_y="380dp"
+        android:background="@drawable/ic_save" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="55dp"
+        android:text="Cédula Beneficiario" />
+
+</AbsoluteLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        android:layout_x="7dp"
+        android:layout_y="6dp"
+        app:srcCompat="@drawable/ic_book" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="7dp"
+        android:text="Còdigo Libro"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="42dp"
+        android:text="Cédula Donante"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="76dp"
+        android:text="Fecha Donación"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="107dp"
+        android:text="Libros Donados"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/tv_item_donaciones_cantidad"
+        android:layout_width="114dp"
+        android:layout_height="22dp"
+        android:layout_x="212dp"
+        android:layout_y="106dp"
+        android:text="Libros Disponibles"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/tv_item_donaciones_fecha"
+        android:layout_width="114dp"
+        android:layout_height="22dp"
+        android:layout_x="214dp"
+        android:layout_y="75dp"
+        android:text="Libros Disponibles"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/tv_item_donaciones_cedula"
+        android:layout_width="116dp"
+        android:layout_height="26dp"
+        android:layout_x="213dp"
+        android:layout_y="37dp"
+        android:text="Libros Disponibles"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/tv_item_donaciones_codigo"
+        android:layout_width="116dp"
+        android:layout_height="26dp"
+        android:layout_x="212dp"
+        android:layout_y="5dp"
+        android:text="Libros Disponibles"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+</AbsoluteLayout>

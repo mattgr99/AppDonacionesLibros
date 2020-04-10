@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroLibros">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Registro Libros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_categoria_libro"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/et_codigo_libro"
+        app:layout_constraintStart_toStartOf="@+id/tv_disponibles_libro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_codigo_libro"
+        android:layout_width="170dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/et_categoria_libro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:text="Libros Disponibles"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_disponibles_libro"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Categorìa"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_categoria_libro"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="93dp"
+        android:text="Còdigo"
+        app:layout_constraintBottom_toBottomOf="@+id/et_categoria_libro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_disponibles_libro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="40dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/et_categoria_libro" />
+
+    <Button
+        android:id="@+id/bt_registro_registrar_libro"
+        android:layout_width="81dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="257dp"
+        android:background="@drawable/ic_add_boo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_codigo_libro"
+        app:layout_constraintVertical_bias="0.31" />
+</androidx.constraintlayout.widget.ConstraintLayout>

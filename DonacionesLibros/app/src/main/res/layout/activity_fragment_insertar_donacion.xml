@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fragment_insertar_donacion">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="10dp"
+        android:text="DONACION" />
+
+    <TextView
+        android:id="@+id/tv_nombre_donante"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="103dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="104dp"
+        android:text="Nombre Donante" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="148dp"
+        android:text="Teléfono Donante" />
+
+    <TextView
+        android:id="@+id/tv_telefono_donante"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="150dp" />
+
+    <TextView
+        android:id="@+id/tv_fecha_donacion"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="199dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="196dp"
+        android:text="Fecha Donación" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="256dp"
+        android:text="Número de Libros" />
+
+    <EditText
+        android:id="@+id/et_libros_donacion"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="240dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_codigo_libro_donacion"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="300dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="313dp"
+        android:text="Código Libro" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="372dp"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/bt_registrar_donacion"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_x="35dp"
+        android:layout_y="403dp"
+        android:background="@drawable/ic_save" />
+
+    <Button
+        android:id="@+id/bt_donaciones_listado"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_x="192dp"
+        android:layout_y="407dp"
+        android:background="@drawable/ic_book" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="375dp"
+        android:text="Listar Donaciones" />
+
+    <Button
+        android:id="@+id/bt_buscar_donante"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_x="263dp"
+        android:layout_y="36dp"
+        android:background="@drawable/ic_search" />
+
+    <EditText
+        android:id="@+id/et_cedula_donador"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="40dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="52dp"
+        android:text="Cédula Donante" />
+
+</AbsoluteLayout>
